@@ -14,7 +14,7 @@
 
 void	push_stack_a(t_a_stack **a_stack, t_b_stack **b_stack)
 {
-	t_node *tmp;
+	t_node	*tmp;
 
 	if ((*b_stack)->size == 0)
 		return ;
